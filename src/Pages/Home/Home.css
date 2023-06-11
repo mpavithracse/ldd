@@ -1,0 +1,45 @@
+.home{
+    width: 100%;
+    height: 100%;
+    font-family:sans-serif
+}
+
+.header{
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.pages{
+    display: flex;
+    flex-direction: row;
+}
+
+.pageName{
+font-style: normal;
+font-weight: 400;
+font-size: 100%;
+padding: 10px;
+}
+
+.homeBody{
+    width: 1280px;
+    height: 525px;
+    background-image:  url('../../Images/HomeBackground.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+}
+
+.Letsgobutton{
+width: 100px;
+height: 30px;
+background: #F0C029;
+border-radius: 40px;
+}
