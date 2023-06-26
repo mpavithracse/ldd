@@ -57,24 +57,26 @@ function Home() {
             </Row>
             <Row>
                 <Col className='homeSpecialStory'>
-                    <div className='SpecialStoryheader1'>
-                        Special Story
-                    </div>
-                    <div className='SpecialStoryheader2'>
-                        The Story of Tamilnadu
-                    </div>
-                    <div className='SpecialStoryheader3'>
-                        What you haven't know about Tamilnadu
-                    </div>
-                    <div className='SpecialStoryContent'>
-                        <p>A group of passionate travellers came together with anshared love for exploring the beautiful state of Tamilnadu.
-                            They had all experienced the incedible hospitality, rich culture and natural beauty of Tamilnadu and they
-                            wanted to share their love for the state with the world
-                        </p>
+                    <div className='homeSpecialStoryContent'>
+                        <div className='SpecialStoryheader1'>
+                            Special Story
+                        </div>
+                        <div className='SpecialStoryheader2'>
+                            The Story of Tamilnadu
+                        </div>
+                        <div className='SpecialStoryheader3'>
+                            What you haven't know about Tamilnadu
+                        </div>
+                        <div className='SpecialStoryContent'>
+                            <p>A group of passionate travellers came together with anshared love for exploring the beautiful state of Tamilnadu.
+                                They had all experienced the incedible hospitality, rich culture and natural beauty of Tamilnadu and they
+                                wanted to share their love for the state with the world
+                            </p>
 
-                    </div>
-                    <div className='SpecialStoryButton'>
-                        <button>MORE STORY</button>
+                        </div>
+                        <div className='SpecialStoryButton'>
+                            <button className='Letsgobutton'>MORE STORY</button>
+                        </div>
                     </div>
                 </Col>
             </Row>

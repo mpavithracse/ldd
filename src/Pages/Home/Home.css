@@ -45,7 +45,8 @@
 }
 
 .Letsgobutton {
-    width: 100px;
+    width:fit-content;
+    padding: 10px;
     height: 30px;
     background: #F0C029;
     border-radius: 40px;
@@ -105,11 +106,43 @@
     background-image: url('../../Images/specialStory.jfif');
     background-repeat: no-repeat;
     width: 100%;
-    height: 400px;
+    height: max-content;
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+
+.homeSpecialStoryContent{
     display: flex;
     flex-direction: column;
-    line-height: 20px;
     text-align: left;
+    width: 50%;
+    padding: 70px;
+}
+
+.SpecialStoryheader1{
+    font-size: 36px;
+    color: #F0C029;
+    padding: 20px;
+}
+
+.SpecialStoryheader2{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.SpecialStoryheader3{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.SpecialStoryContent{
+    font-size: 15px;
+    padding: 10px;
+    color: #DFDFDF;
+    line-height: 20px;
 }
